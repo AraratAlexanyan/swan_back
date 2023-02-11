@@ -127,20 +127,20 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:8000"
-# ]
-#
-# CORS_ALLOW_CREDENTIALS = True
-# CSRF_COOKIE_SECURE = False
-# CSRF_COOKIE_HTTPONLY = True
-# CSRF_TRUSTED_ORIGINS = [
-#     "http://localhost:8000"
-# ]
-# CORS_EXPOSE_HEADERS = ["Content-Type", "X-CSRFToken"]
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SAMESITE = "None"
-# SESSION_COOKIE_SAMESITE = "None"
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8000"
+]
+
+CORS_ALLOW_CREDENTIALS = True
+CSRF_COOKIE_SECURE = False
+CSRF_COOKIE_HTTPONLY = True
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:8000"
+]
+CORS_EXPOSE_HEADERS = ["Content-Type", "X-CSRFToken"]
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SAMESITE = "None"
+SESSION_COOKIE_SAMESITE = "None"
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=95),
@@ -203,7 +203,7 @@ DEFAULT_FROM_EMAIL = 'swan-auth@noreply.com'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "alexanyan.ararat1@gmail.com"
-EMAIL_HOST_PASSWORD = "ielbgspsctsneows"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = "#####"
 BASE_URL = "http://127.0.0.1:8000"
 VERIFICATION_TIME_IN_SECONDS = 60
